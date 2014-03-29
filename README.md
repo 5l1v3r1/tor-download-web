@@ -11,7 +11,6 @@ This project was built by a collection of volunteers on the Tor Project Website 
 * William Papper
 * Lance Tuller
 
-<<<<<<< HEAD
 This project is licensed under the MIT license. See the LICENSE file for more information.
 =======
 How can I help?
