@@ -16,6 +16,7 @@ time, mark, audio, video {
   border: 0;
   font-size: 100%;
   font: inherit;
+<<<<<<< HEAD
   vertical-align: baseline;
 }
 
@@ -35,10 +36,27 @@ ol, ul {
 blockquote, q {
   quotes: none;
 }
+=======
+  vertical-align: baseline; }
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+>>>>>>> upstream/master
 
 blockquote:before, blockquote:after,
 q:before, q:after {
   content: '';
+<<<<<<< HEAD
   content: none;
 }
 
@@ -48,6 +66,15 @@ table {
 }
 
 .about {
+=======
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+.about, .download {
+>>>>>>> upstream/master
   margin: 70px auto 40px;
   padding: 8px;
   width: 260px;
@@ -58,6 +85,7 @@ table {
   background: #383838;
   background: rgba(34, 34, 34, 0.8);
   border-radius: 4px;
+<<<<<<< HEAD
   background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3));
   background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3));
   background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3));
@@ -97,6 +125,40 @@ table {
   padding: 1px 3px;
   margin: 0 -1px;
 }
+=======
+  background-image: -webkit-linear-gradient(top, transparent, rgba(0, 0, 0, 0.3));
+  background-image: -moz-linear-gradient(top, transparent, rgba(0, 0, 0, 0.3));
+  background-image: -o-linear-gradient(top, transparent, rgba(0, 0, 0, 0.3));
+  background-image: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.3));
+  -webkit-box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.2), 0 0 6px rgba(0, 0, 0, 0.4);
+  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.2), 0 0 6px rgba(0, 0, 0, 0.4); }
+  .about a, .download a {
+    color: #eee;
+    text-decoration: none;
+    border-radius: 2px;
+    -webkit-transition: background 0.1s;
+    -moz-transition: background 0.1s;
+    -o-transition: background 0.1s;
+    transition: background 0.1s; }
+    .about a:hover, .download a:hover {
+      text-decoration: none;
+      background: #555;
+      background: rgba(255, 255, 255, 0.15); }
+
+.about-links, .download-link {
+  height: 30px; }
+  .about-links > a, .download-link > a {
+    float: left;
+    width: 50%;
+    line-height: 30px;
+    font-size: 12px; }
+
+.about-author {
+  margin-top: 5px; }
+  .about-author > a {
+    padding: 1px 3px;
+    margin: 0 -1px; }
+>>>>>>> upstream/master
 
 /*
  * Copyright (c) 2012-2013 Thibaut Courouble
@@ -108,18 +170,29 @@ table {
 body {
   font: 13px/20px 'Lucida Grande', Tahoma, Verdana, sans-serif;
   color: #404040;
+<<<<<<< HEAD
   background: #FFDFAB;
 }
+=======
+  background: #93cedf; }
+>>>>>>> upstream/master
 
 .container {
   margin: 50px auto;
   width: 500px;
+<<<<<<< HEAD
   text-align: center;
 }
 .container > .dropdown {
   margin: 0 20px;
   vertical-align: top;
 }
+=======
+  text-align: center; }
+  .container > .dropdown {
+    margin: 0 20px;
+    vertical-align: top; }
+>>>>>>> upstream/master
 
 .dropdown {
   display: inline-block;
@@ -136,6 +209,7 @@ body {
   background-image: -o-linear-gradient(top, transparent, rgba(0, 0, 0, 0.06));
   background-image: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.06));
   -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08);
+<<<<<<< HEAD
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08);
 }
 .dropdown:before, .dropdown:after {
@@ -159,6 +233,27 @@ body {
   border-top-style: solid;
   border-bottom: none;
 }
+=======
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08); }
+  .dropdown:before, .dropdown:after {
+    content: '';
+    position: absolute;
+    z-index: 2;
+    top: 9px;
+    right: 10px;
+    width: 0;
+    height: 0;
+    border: 4px dashed;
+    border-color: #888 transparent;
+    pointer-events: none; }
+  .dropdown:before {
+    border-bottom-style: solid;
+    border-top: none; }
+  .dropdown:after {
+    margin-top: 7px;
+    border-top-style: solid;
+    border-bottom: none; }
+>>>>>>> upstream/master
 
 .dropdown-select {
   position: relative;
@@ -173,6 +268,7 @@ body {
   /* Fallback for IE 8 */
   background: #f2f2f2;
   /* "transparent" doesn't work with Opera */
+<<<<<<< HEAD
   background: rgba(0, 0, 0, 0) !important;
   border: 0;
   border-radius: 0;
@@ -205,14 +301,46 @@ body {
 .lt-ie9 .dropdown-select:focus {
   z-index: 3;
 }
+=======
+  background: transparent !important;
+  border: 0;
+  border-radius: 0;
+  -webkit-appearance: none; }
+  .dropdown-select:focus {
+    z-index: 3;
+    width: 100%;
+    color: #394349;
+    outline: 2px solid #49aff2;
+    outline: 2px solid -webkit-focus-ring-color;
+    outline-offset: -2px; }
+  .dropdown-select > option {
+    margin: 3px;
+    padding: 6px 8px;
+    text-shadow: none;
+    background: #f2f2f2;
+    border-radius: 3px;
+    cursor: pointer; }
+
+/* Fix for IE 8 putting the arrows behind the select element. */
+.lt-ie9 .dropdown {
+  z-index: 1; }
+.lt-ie9 .dropdown-select {
+  z-index: -1; }
+.lt-ie9 .dropdown-select:focus {
+  z-index: 3; }
+>>>>>>> upstream/master
 
 /* Dirty fix for Firefox adding padding where it shouldn't. */
 @-moz-document url-prefix() {
   .dropdown-select {
+<<<<<<< HEAD
     padding-left: 6px;
   }
 }
 
+=======
+    padding-left: 6px; } }
+>>>>>>> upstream/master
 .dropdown-dark {
   background: #444;
   border-color: #111 #0a0a0a black;
@@ -221,6 +349,7 @@ body {
   background-image: -o-linear-gradient(top, transparent, rgba(0, 0, 0, 0.4));
   background-image: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.4));
   -webkit-box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), 0 1px 1px rgba(0, 0, 0, 0.2);
+<<<<<<< HEAD
   box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), 0 1px 1px rgba(0, 0, 0, 0.2);
 }
 .dropdown-dark:before {
@@ -242,3 +371,43 @@ body {
   background: #444;
   text-shadow: 0 1px rgba(0, 0, 0, 0.4);
 }
+=======
+  box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), 0 1px 1px rgba(0, 0, 0, 0.2); }
+  .dropdown-dark:before {
+    border-bottom-color: #aaa; }
+  .dropdown-dark:after {
+    border-top-color: #aaa; }
+  .dropdown-dark .dropdown-select {
+    color: #aaa;
+    text-shadow: 0 1px black;
+    /* Fallback for IE 8 */
+    background: #444; }
+    .dropdown-dark .dropdown-select:focus {
+      color: #ccc; }
+    .dropdown-dark .dropdown-select > option {
+      background: #444;
+      text-shadow: 0 1px rgba(0, 0, 0, 0.4); }
+
+/* Changes to replicate the mockup */
+h1 {
+  font-size: 24px; }
+
+h2 {
+  font-size: 24px; }
+
+#download-details {
+  font-size: 32px; }
+
+#custom-download {
+  font-size: 13px; }
+
+.download {
+  margin: 0px auto 20px; }
+
+.download-link > a {
+  width: 100%;
+  font-size: 14px; }
+
+.center-text {
+  text-align: center; }
+>>>>>>> upstream/master
